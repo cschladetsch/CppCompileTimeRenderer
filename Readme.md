@@ -38,7 +38,7 @@ clang++ -std=c++20 -fconstexpr-steps=10000000 -ferror-limit=0 raytracer.cpp 2>&1
 
 ### Filtered output (example)
 
-![resources/Untitled.jpg](Demo)
+![Demo](/resources/Untitled.jpg)
 
 ### 3) One-command render (raw + cleaned)
 
