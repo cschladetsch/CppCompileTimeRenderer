@@ -1,0 +1,361 @@
+raytracer.cpp:233:19: error: static assertion failed due to requirement 'AlwaysFalseT<rt::LineTag<':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':'>>::value'
+  233 |     static_assert(AlwaysFalseT<LineType<I>>::value);
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+raytracer.cpp:237:20: note: in instantiation of template class 'rt::LineAssert<0>' requested here
+  237 | struct EmitLines : LineAssert<Is>... {};
+      |                    ^
+raytracer.cpp:248:27: note: in instantiation of template class 'rt::EmitLines<0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39>' requested here
+  248 | constexpr bool kTrigger = sizeof(Trigger) > 0;
+      |                           ^
+raytracer.cpp:233:19: error: static assertion failed due to requirement 'AlwaysFalseT<rt::LineTag<':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':'>>::value'
+  233 |     static_assert(AlwaysFalseT<LineType<I>>::value);
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+raytracer.cpp:237:20: note: in instantiation of template class 'rt::LineAssert<1>' requested here
+  237 | struct EmitLines : LineAssert<Is>... {};
+      |                    ^
+raytracer.cpp:248:27: note: in instantiation of template class 'rt::EmitLines<0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39>' requested here
+  248 | constexpr bool kTrigger = sizeof(Trigger) > 0;
+      |                           ^
+raytracer.cpp:233:19: error: static assertion failed due to requirement 'AlwaysFalseT<rt::LineTag<':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':'>>::value'
+  233 |     static_assert(AlwaysFalseT<LineType<I>>::value);
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+raytracer.cpp:237:20: note: in instantiation of template class 'rt::LineAssert<2>' requested here
+  237 | struct EmitLines : LineAssert<Is>... {};
+      |                    ^
+raytracer.cpp:248:27: note: in instantiation of template class 'rt::EmitLines<0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39>' requested here
+  248 | constexpr bool kTrigger = sizeof(Trigger) > 0;
+      |                           ^
+raytracer.cpp:233:19: error: static assertion failed due to requirement 'AlwaysFalseT<rt::LineTag<':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':'>>::value'
+  233 |     static_assert(AlwaysFalseT<LineType<I>>::value);
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+raytracer.cpp:237:20: note: in instantiation of template class 'rt::LineAssert<3>' requested here
+  237 | struct EmitLines : LineAssert<Is>... {};
+      |                    ^
+raytracer.cpp:248:27: note: in instantiation of template class 'rt::EmitLines<0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39>' requested here
+  248 | constexpr bool kTrigger = sizeof(Trigger) > 0;
+      |                           ^
+raytracer.cpp:233:19: error: static assertion failed due to requirement 'AlwaysFalseT<rt::LineTag<':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':'>>::value'
+  233 |     static_assert(AlwaysFalseT<LineType<I>>::value);
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+raytracer.cpp:237:20: note: in instantiation of template class 'rt::LineAssert<4>' requested here
+  237 | struct EmitLines : LineAssert<Is>... {};
+      |                    ^
+raytracer.cpp:248:27: note: in instantiation of template class 'rt::EmitLines<0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39>' requested here
+  248 | constexpr bool kTrigger = sizeof(Trigger) > 0;
+      |                           ^
+raytracer.cpp:233:19: error: static assertion failed due to requirement 'AlwaysFalseT<rt::LineTag<':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':'>>::value'
+  233 |     static_assert(AlwaysFalseT<LineType<I>>::value);
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+raytracer.cpp:237:20: note: in instantiation of template class 'rt::LineAssert<5>' requested here
+  237 | struct EmitLines : LineAssert<Is>... {};
+      |                    ^
+raytracer.cpp:248:27: note: in instantiation of template class 'rt::EmitLines<0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39>' requested here
+  248 | constexpr bool kTrigger = sizeof(Trigger) > 0;
+      |                           ^
+raytracer.cpp:233:19: error: static assertion failed due to requirement 'AlwaysFalseT<rt::LineTag<':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':'>>::value'
+  233 |     static_assert(AlwaysFalseT<LineType<I>>::value);
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+raytracer.cpp:237:20: note: in instantiation of template class 'rt::LineAssert<6>' requested here
+  237 | struct EmitLines : LineAssert<Is>... {};
+      |                    ^
+raytracer.cpp:248:27: note: in instantiation of template class 'rt::EmitLines<0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39>' requested here
+  248 | constexpr bool kTrigger = sizeof(Trigger) > 0;
+      |                           ^
+raytracer.cpp:233:19: error: static assertion failed due to requirement 'AlwaysFalseT<rt::LineTag<':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':'>>::value'
+  233 |     static_assert(AlwaysFalseT<LineType<I>>::value);
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+raytracer.cpp:237:20: note: in instantiation of template class 'rt::LineAssert<7>' requested here
+  237 | struct EmitLines : LineAssert<Is>... {};
+      |                    ^
+raytracer.cpp:248:27: note: in instantiation of template class 'rt::EmitLines<0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39>' requested here
+  248 | constexpr bool kTrigger = sizeof(Trigger) > 0;
+      |                           ^
+raytracer.cpp:233:19: error: static assertion failed due to requirement 'AlwaysFalseT<rt::LineTag<':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', '-', '=', '=', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':'>>::value'
+  233 |     static_assert(AlwaysFalseT<LineType<I>>::value);
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+raytracer.cpp:237:20: note: in instantiation of template class 'rt::LineAssert<8>' requested here
+  237 | struct EmitLines : LineAssert<Is>... {};
+      |                    ^
+raytracer.cpp:248:27: note: in instantiation of template class 'rt::EmitLines<0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39>' requested here
+  248 | constexpr bool kTrigger = sizeof(Trigger) > 0;
+      |                           ^
+raytracer.cpp:233:19: error: static assertion failed due to requirement 'AlwaysFalseT<rt::LineTag<':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', '-', '-', '=', '=', '+', '+', '+', '*', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':'>>::value'
+  233 |     static_assert(AlwaysFalseT<LineType<I>>::value);
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+raytracer.cpp:237:20: note: in instantiation of template class 'rt::LineAssert<9>' requested here
+  237 | struct EmitLines : LineAssert<Is>... {};
+      |                    ^
+raytracer.cpp:248:27: note: in instantiation of template class 'rt::EmitLines<0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39>' requested here
+  248 | constexpr bool kTrigger = sizeof(Trigger) > 0;
+      |                           ^
+raytracer.cpp:233:19: error: static assertion failed due to requirement 'AlwaysFalseT<rt::LineTag<':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', '.', ':', ':', '-', '-', '=', '=', '+', '+', '*', '*', '*', '*', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':'>>::value'
+  233 |     static_assert(AlwaysFalseT<LineType<I>>::value);
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+raytracer.cpp:237:20: note: in instantiation of template class 'rt::LineAssert<10>' requested here
+  237 | struct EmitLines : LineAssert<Is>... {};
+      |                    ^
+raytracer.cpp:248:27: note: in instantiation of template class 'rt::EmitLines<0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39>' requested here
+  248 | constexpr bool kTrigger = sizeof(Trigger) > 0;
+      |                           ^
+raytracer.cpp:233:19: error: static assertion failed due to requirement 'AlwaysFalseT<rt::LineTag<':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ' ', '.', ':', ':', '-', '-', '=', '=', '+', '+', '*', '*', '*', '*', '#', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':'>>::value'
+  233 |     static_assert(AlwaysFalseT<LineType<I>>::value);
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+raytracer.cpp:237:20: note: in instantiation of template class 'rt::LineAssert<11>' requested here
+  237 | struct EmitLines : LineAssert<Is>... {};
+      |                    ^
+raytracer.cpp:248:27: note: in instantiation of template class 'rt::EmitLines<0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39>' requested here
+  248 | constexpr bool kTrigger = sizeof(Trigger) > 0;
+      |                           ^
+raytracer.cpp:233:19: error: static assertion failed due to requirement 'AlwaysFalseT<rt::LineTag<':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ' ', ' ', '.', ':', ':', '-', '-', '=', '=', '+', '+', '+', '*', '*', '*', '#', '#', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', '*', '*', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':'>>::value'
+  233 |     static_assert(AlwaysFalseT<LineType<I>>::value);
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+raytracer.cpp:237:20: note: in instantiation of template class 'rt::LineAssert<12>' requested here
+  237 | struct EmitLines : LineAssert<Is>... {};
+      |                    ^
+raytracer.cpp:248:27: note: in instantiation of template class 'rt::EmitLines<0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39>' requested here
+  248 | constexpr bool kTrigger = sizeof(Trigger) > 0;
+      |                           ^
+raytracer.cpp:233:19: error: static assertion failed due to requirement 'AlwaysFalseT<rt::LineTag<'-', '-', '-', '-', '-', ':', ':', ':', ':', ':', ':', ':', ':', ' ', ' ', '.', ':', ':', '-', '-', '-', '=', '=', '+', '+', '*', '*', '*', '*', '#', '*', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', '-', '=', '=', '+', '+', '*', '#', '#', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', '-', '-', '-', '-', '-'>>::value'
+  233 |     static_assert(AlwaysFalseT<LineType<I>>::value);
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+raytracer.cpp:237:20: note: in instantiation of template class 'rt::LineAssert<13>' requested here
+  237 | struct EmitLines : LineAssert<Is>... {};
+      |                    ^
+raytracer.cpp:248:27: note: in instantiation of template class 'rt::EmitLines<0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39>' requested here
+  248 | constexpr bool kTrigger = sizeof(Trigger) > 0;
+      |                           ^
+raytracer.cpp:233:19: error: static assertion failed due to requirement 'AlwaysFalseT<rt::LineTag<'-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', ' ', ' ', ' ', '.', '.', ':', ':', '-', '-', '=', '=', '=', '+', '+', '*', '*', '*', '*', '*', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', '.', ':', ':', '-', '=', '=', '+', '*', '#', '*', '#', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-'>>::value'
+  233 |     static_assert(AlwaysFalseT<LineType<I>>::value);
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+raytracer.cpp:237:20: note: in instantiation of template class 'rt::LineAssert<14>' requested here
+  237 | struct EmitLines : LineAssert<Is>... {};
+      |                    ^
+raytracer.cpp:248:27: note: in instantiation of template class 'rt::EmitLines<0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39>' requested here
+  248 | constexpr bool kTrigger = sizeof(Trigger) > 0;
+      |                           ^
+raytracer.cpp:233:19: error: static assertion failed due to requirement 'AlwaysFalseT<rt::LineTag<'-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', ' ', ' ', ' ', '.', '.', ':', ':', ':', '-', '-', '=', '=', '=', '+', '+', '*', '*', '*', '*', '*', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', '.', '.', ':', ':', '-', '-', '=', '+', '%', '%', '*', '*', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-'>>::value'
+  233 |     static_assert(AlwaysFalseT<LineType<I>>::value);
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+raytracer.cpp:237:20: note: in instantiation of template class 'rt::LineAssert<15>' requested here
+  237 | struct EmitLines : LineAssert<Is>... {};
+      |                    ^
+raytracer.cpp:248:27: note: in instantiation of template class 'rt::EmitLines<0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39>' requested here
+  248 | constexpr bool kTrigger = sizeof(Trigger) > 0;
+      |                           ^
+raytracer.cpp:233:19: error: static assertion failed due to requirement 'AlwaysFalseT<rt::LineTag<'-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', ' ', ' ', ' ', ' ', '.', '.', ':', ':', '-', '-', '-', '=', '+', '+', '*', '#', '#', '%', '*', '+', '-', '-', '-', '-', '-', '-', '-', '-', '-', ' ', ' ', '.', '.', ':', ':', '-', '-', '=', '=', '+', '+', '*', '*', '-', '-', '-', '-', '-', '-', '-', '-', '-', '*', '*', '#', '#', '#', '#', '%', '-', '-', '-', '-', '-', '-', '-', '-', '-'>>::value'
+  233 |     static_assert(AlwaysFalseT<LineType<I>>::value);
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+raytracer.cpp:237:20: note: in instantiation of template class 'rt::LineAssert<16>' requested here
+  237 | struct EmitLines : LineAssert<Is>... {};
+      |                    ^
+raytracer.cpp:248:27: note: in instantiation of template class 'rt::EmitLines<0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39>' requested here
+  248 | constexpr bool kTrigger = sizeof(Trigger) > 0;
+      |                           ^
+raytracer.cpp:233:19: error: static assertion failed due to requirement 'AlwaysFalseT<rt::LineTag<'-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', ' ', ' ', ' ', ' ', ' ', '.', '.', ':', '.', ':', '-', '=', '+', '+', '*', '#', '#', '%', '%', '@', '-', '-', '-', '-', '-', '-', '-', '-', ' ', ' ', ' ', ' ', '.', '.', '.', ':', ':', '-', '-', '=', '=', '+', '+', '-', '-', '-', '-', '-', '-', '-', '=', '=', '=', '=', '+', '%', '@', '%', '*', '*', '#', '-', '-', '-', '-', '-', '-', '-'>>::value'
+  233 |     static_assert(AlwaysFalseT<LineType<I>>::value);
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+raytracer.cpp:237:20: note: in instantiation of template class 'rt::LineAssert<17>' requested here
+  237 | struct EmitLines : LineAssert<Is>... {};
+      |                    ^
+raytracer.cpp:248:27: note: in instantiation of template class 'rt::EmitLines<0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39>' requested here
+  248 | constexpr bool kTrigger = sizeof(Trigger) > 0;
+      |                           ^
+raytracer.cpp:233:19: error: static assertion failed due to requirement 'AlwaysFalseT<rt::LineTag<'-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', ' ', ' ', ' ', ' ', ' ', '.', '.', ' ', '.', ':', '-', '-', '=', '+', '+', '*', '#', '#', '%', '%', '%', '-', '-', '-', '-', '-', '-', '-', ' ', ' ', ' ', ' ', ' ', ' ', '.', '.', ':', ':', '-', '-', '-', '=', '=', '+', '-', '-', '-', '-', '-', ':', ':', ':', ':', ':', '-', '-', '-', '=', '=', '=', '+', '+', '-', '-', '-', '-', '-', '-'>>::value'
+  233 |     static_assert(AlwaysFalseT<LineType<I>>::value);
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+raytracer.cpp:237:20: note: in instantiation of template class 'rt::LineAssert<18>' requested here
+  237 | struct EmitLines : LineAssert<Is>... {};
+      |                    ^
+raytracer.cpp:248:27: note: in instantiation of template class 'rt::EmitLines<0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39>' requested here
+  248 | constexpr bool kTrigger = sizeof(Trigger) > 0;
+      |                           ^
+raytracer.cpp:233:19: error: static assertion failed due to requirement 'AlwaysFalseT<rt::LineTag<'-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', ' ', ' ', ' ', ' ', ' ', ' ', '.', ' ', '.', ':', ':', '-', '=', '=', '+', '*', '*', '%', '%', '%', '%', '-', '-', '-', '-', '-', '-', '-', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '.', '.', '.', ':', ':', '-', '-', '-', '=', '-', '-', '-', '-', ' ', ' ', ' ', ' ', '.', '.', '.', ':', ':', ':', ':', '-', '-', '=', '=', '-', '-', '-', '-', '-'>>::value'
+  233 |     static_assert(AlwaysFalseT<LineType<I>>::value);
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+raytracer.cpp:237:20: note: in instantiation of template class 'rt::LineAssert<19>' requested here
+  237 | struct EmitLines : LineAssert<Is>... {};
+      |                    ^
+raytracer.cpp:248:27: note: in instantiation of template class 'rt::EmitLines<0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39>' requested here
+  248 | constexpr bool kTrigger = sizeof(Trigger) > 0;
+      |                           ^
+raytracer.cpp:233:19: error: static assertion failed due to requirement 'AlwaysFalseT<rt::LineTag<'-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '.', ':', '-', '-', '=', '=', '+', '*', '#', '#', '#', '#', '%', '-', '-', '-', '-', '-', '-', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '.', '.', ':', ':', ':', '-', '-', '-', '-', '-', '-', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '.', '.', '.', ':', ':', '-', '-', '-', '-', '-', '-'>>::value'
+  233 |     static_assert(AlwaysFalseT<LineType<I>>::value);
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+raytracer.cpp:237:20: note: in instantiation of template class 'rt::LineAssert<20>' requested here
+  237 | struct EmitLines : LineAssert<Is>... {};
+      |                    ^
+raytracer.cpp:248:27: note: in instantiation of template class 'rt::EmitLines<0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39>' requested here
+  248 | constexpr bool kTrigger = sizeof(Trigger) > 0;
+      |                           ^
+raytracer.cpp:233:19: error: static assertion failed due to requirement 'AlwaysFalseT<rt::LineTag<'-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '.', '.', ':', '-', '-', '=', '=', '+', '+', '*', '*', '#', '#', '-', '-', '-', '-', '-', '-', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '.', '.', '.', ':', ':', ':', '-', '-', '-', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '.', '.', '-', '-', '-', '-', '-'>>::value'
+  233 |     static_assert(AlwaysFalseT<LineType<I>>::value);
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+raytracer.cpp:237:20: note: in instantiation of template class 'rt::LineAssert<21>' requested here
+  237 | struct EmitLines : LineAssert<Is>... {};
+      |                    ^
+raytracer.cpp:248:27: note: in instantiation of template class 'rt::EmitLines<0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39>' requested here
+  248 | constexpr bool kTrigger = sizeof(Trigger) > 0;
+      |                           ^
+raytracer.cpp:233:19: error: static assertion failed due to requirement 'AlwaysFalseT<rt::LineTag<'-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '.', ':', ':', '-', '-', '=', '=', '+', '+', '*', '*', '*', '.', '.', '.', '.', ':', ':', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '.', '.', '.', '-', '-', '-', '-', '-', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '-', '-', '-', '-', '-'>>::value'
+  233 |     static_assert(AlwaysFalseT<LineType<I>>::value);
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+raytracer.cpp:237:20: note: in instantiation of template class 'rt::LineAssert<22>' requested here
+  237 | struct EmitLines : LineAssert<Is>... {};
+      |                    ^
+raytracer.cpp:248:27: note: in instantiation of template class 'rt::EmitLines<0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39>' requested here
+  248 | constexpr bool kTrigger = sizeof(Trigger) > 0;
+      |                           ^
+raytracer.cpp:233:19: error: static assertion failed due to requirement 'AlwaysFalseT<rt::LineTag<'-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '.', '.', '.', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '.', ':', ':', '-', '-', '=', '=', '+', '+', '+', '+', ':', ':', ':', ':', ':', ':', ':', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ':', ':', ':', ':', ':', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '-', '-', '-', '-', '-'>>::value'
+  233 |     static_assert(AlwaysFalseT<LineType<I>>::value);
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+raytracer.cpp:237:20: note: in instantiation of template class 'rt::LineAssert<23>' requested here
+  237 | struct EmitLines : LineAssert<Is>... {};
+      |                    ^
+raytracer.cpp:248:27: note: in instantiation of template class 'rt::EmitLines<0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39>' requested here
+  248 | constexpr bool kTrigger = sizeof(Trigger) > 0;
+      |                           ^
+raytracer.cpp:233:19: error: static assertion failed due to requirement 'AlwaysFalseT<rt::LineTag<' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '.', '.', ':', ':', '-', '-', '=', '=', '=', '=', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '-', '-', '-', '-', '-', '-', '-', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ':', ':', ':', ':', ':', ':'>>::value'
+  233 |     static_assert(AlwaysFalseT<LineType<I>>::value);
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+raytracer.cpp:237:20: note: in instantiation of template class 'rt::LineAssert<24>' requested here
+  237 | struct EmitLines : LineAssert<Is>... {};
+      |                    ^
+raytracer.cpp:248:27: note: in instantiation of template class 'rt::EmitLines<0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39>' requested here
+  248 | constexpr bool kTrigger = sizeof(Trigger) > 0;
+      |                           ^
+raytracer.cpp:233:19: error: static assertion failed due to requirement 'AlwaysFalseT<rt::LineTag<' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '.', '.', ':', ':', '-', '-', '-', '-', '-', ':', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '-', '-', '-', '-', '-', '-', '-', '-', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '-', '-', '-', '-', '-', '-'>>::value'
+  233 |     static_assert(AlwaysFalseT<LineType<I>>::value);
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+raytracer.cpp:237:20: note: in instantiation of template class 'rt::LineAssert<25>' requested here
+  237 | struct EmitLines : LineAssert<Is>... {};
+      |                    ^
+raytracer.cpp:248:27: note: in instantiation of template class 'rt::EmitLines<0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39>' requested here
+  248 | constexpr bool kTrigger = sizeof(Trigger) > 0;
+      |                           ^
+raytracer.cpp:233:19: error: static assertion failed due to requirement 'AlwaysFalseT<rt::LineTag<':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '.', '.', '.', ':', ':', ':', ':', ':', '-', '-', '-', '-', '-', '-', '-', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '-', '-', '-', '-', '-', '-', '-', '-'>>::value'
+  233 |     static_assert(AlwaysFalseT<LineType<I>>::value);
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+raytracer.cpp:237:20: note: in instantiation of template class 'rt::LineAssert<26>' requested here
+  237 | struct EmitLines : LineAssert<Is>... {};
+      |                    ^
+raytracer.cpp:248:27: note: in instantiation of template class 'rt::EmitLines<0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39>' requested here
+  248 | constexpr bool kTrigger = sizeof(Trigger) > 0;
+      |                           ^
+raytracer.cpp:233:19: error: static assertion failed due to requirement 'AlwaysFalseT<rt::LineTag<':', ':', ':', ':', ':', ':', ':', ':', ':', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '.', '.', '.', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-'>>::value'
+  233 |     static_assert(AlwaysFalseT<LineType<I>>::value);
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+raytracer.cpp:237:20: note: in instantiation of template class 'rt::LineAssert<27>' requested here
+  237 | struct EmitLines : LineAssert<Is>... {};
+      |                    ^
+raytracer.cpp:248:27: note: in instantiation of template class 'rt::EmitLines<0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39>' requested here
+  248 | constexpr bool kTrigger = sizeof(Trigger) > 0;
+      |                           ^
+raytracer.cpp:233:19: error: static assertion failed due to requirement 'AlwaysFalseT<rt::LineTag<':', ':', ':', ':', ':', ':', ':', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ':', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '-', '-', '-', '-', '-', '-', '-', '-', '-'>>::value'
+  233 |     static_assert(AlwaysFalseT<LineType<I>>::value);
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+raytracer.cpp:237:20: note: in instantiation of template class 'rt::LineAssert<28>' requested here
+  237 | struct EmitLines : LineAssert<Is>... {};
+      |                    ^
+raytracer.cpp:248:27: note: in instantiation of template class 'rt::EmitLines<0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39>' requested here
+  248 | constexpr bool kTrigger = sizeof(Trigger) > 0;
+      |                           ^
+raytracer.cpp:233:19: error: static assertion failed due to requirement 'AlwaysFalseT<rt::LineTag<':', ':', ':', ':', ':', ':', ':', ':', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ':', ':', ':', ':', ':', ':', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '-', '-', '-', '-', '-', '-', '-'>>::value'
+  233 |     static_assert(AlwaysFalseT<LineType<I>>::value);
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+raytracer.cpp:237:20: note: in instantiation of template class 'rt::LineAssert<29>' requested here
+  237 | struct EmitLines : LineAssert<Is>... {};
+      |                    ^
+raytracer.cpp:248:27: note: in instantiation of template class 'rt::EmitLines<0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39>' requested here
+  248 | constexpr bool kTrigger = sizeof(Trigger) > 0;
+      |                           ^
+raytracer.cpp:233:19: error: static assertion failed due to requirement 'AlwaysFalseT<rt::LineTag<':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-'>>::value'
+  233 |     static_assert(AlwaysFalseT<LineType<I>>::value);
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+raytracer.cpp:237:20: note: in instantiation of template class 'rt::LineAssert<30>' requested here
+  237 | struct EmitLines : LineAssert<Is>... {};
+      |                    ^
+raytracer.cpp:248:27: note: in instantiation of template class 'rt::EmitLines<0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39>' requested here
+  248 | constexpr bool kTrigger = sizeof(Trigger) > 0;
+      |                           ^
+raytracer.cpp:233:19: error: static assertion failed due to requirement 'AlwaysFalseT<rt::LineTag<':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-'>>::value'
+  233 |     static_assert(AlwaysFalseT<LineType<I>>::value);
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+raytracer.cpp:237:20: note: in instantiation of template class 'rt::LineAssert<31>' requested here
+  237 | struct EmitLines : LineAssert<Is>... {};
+      |                    ^
+raytracer.cpp:248:27: note: in instantiation of template class 'rt::EmitLines<0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39>' requested here
+  248 | constexpr bool kTrigger = sizeof(Trigger) > 0;
+      |                           ^
+raytracer.cpp:233:19: error: static assertion failed due to requirement 'AlwaysFalseT<rt::LineTag<':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-'>>::value'
+  233 |     static_assert(AlwaysFalseT<LineType<I>>::value);
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+raytracer.cpp:237:20: note: in instantiation of template class 'rt::LineAssert<32>' requested here
+  237 | struct EmitLines : LineAssert<Is>... {};
+      |                    ^
+raytracer.cpp:248:27: note: in instantiation of template class 'rt::EmitLines<0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39>' requested here
+  248 | constexpr bool kTrigger = sizeof(Trigger) > 0;
+      |                           ^
+raytracer.cpp:233:19: error: static assertion failed due to requirement 'AlwaysFalseT<rt::LineTag<':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-'>>::value'
+  233 |     static_assert(AlwaysFalseT<LineType<I>>::value);
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+raytracer.cpp:237:20: note: in instantiation of template class 'rt::LineAssert<33>' requested here
+  237 | struct EmitLines : LineAssert<Is>... {};
+      |                    ^
+raytracer.cpp:248:27: note: in instantiation of template class 'rt::EmitLines<0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39>' requested here
+  248 | constexpr bool kTrigger = sizeof(Trigger) > 0;
+      |                           ^
+raytracer.cpp:233:19: error: static assertion failed due to requirement 'AlwaysFalseT<rt::LineTag<':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-'>>::value'
+  233 |     static_assert(AlwaysFalseT<LineType<I>>::value);
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+raytracer.cpp:237:20: note: in instantiation of template class 'rt::LineAssert<34>' requested here
+  237 | struct EmitLines : LineAssert<Is>... {};
+      |                    ^
+raytracer.cpp:248:27: note: in instantiation of template class 'rt::EmitLines<0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39>' requested here
+  248 | constexpr bool kTrigger = sizeof(Trigger) > 0;
+      |                           ^
+raytracer.cpp:233:19: error: static assertion failed due to requirement 'AlwaysFalseT<rt::LineTag<':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-'>>::value'
+  233 |     static_assert(AlwaysFalseT<LineType<I>>::value);
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+raytracer.cpp:237:20: note: in instantiation of template class 'rt::LineAssert<35>' requested here
+  237 | struct EmitLines : LineAssert<Is>... {};
+      |                    ^
+raytracer.cpp:248:27: note: in instantiation of template class 'rt::EmitLines<0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39>' requested here
+  248 | constexpr bool kTrigger = sizeof(Trigger) > 0;
+      |                           ^
+raytracer.cpp:233:19: error: static assertion failed due to requirement 'AlwaysFalseT<rt::LineTag<':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-'>>::value'
+  233 |     static_assert(AlwaysFalseT<LineType<I>>::value);
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+raytracer.cpp:237:20: note: in instantiation of template class 'rt::LineAssert<36>' requested here
+  237 | struct EmitLines : LineAssert<Is>... {};
+      |                    ^
+raytracer.cpp:248:27: note: in instantiation of template class 'rt::EmitLines<0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39>' requested here
+  248 | constexpr bool kTrigger = sizeof(Trigger) > 0;
+      |                           ^
+raytracer.cpp:233:19: error: static assertion failed due to requirement 'AlwaysFalseT<rt::LineTag<':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-'>>::value'
+  233 |     static_assert(AlwaysFalseT<LineType<I>>::value);
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+raytracer.cpp:237:20: note: in instantiation of template class 'rt::LineAssert<37>' requested here
+  237 | struct EmitLines : LineAssert<Is>... {};
+      |                    ^
+raytracer.cpp:248:27: note: in instantiation of template class 'rt::EmitLines<0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39>' requested here
+  248 | constexpr bool kTrigger = sizeof(Trigger) > 0;
+      |                           ^
+raytracer.cpp:233:19: error: static assertion failed due to requirement 'AlwaysFalseT<rt::LineTag<':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-'>>::value'
+  233 |     static_assert(AlwaysFalseT<LineType<I>>::value);
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+raytracer.cpp:237:20: note: in instantiation of template class 'rt::LineAssert<38>' requested here
+  237 | struct EmitLines : LineAssert<Is>... {};
+      |                    ^
+raytracer.cpp:248:27: note: in instantiation of template class 'rt::EmitLines<0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39>' requested here
+  248 | constexpr bool kTrigger = sizeof(Trigger) > 0;
+      |                           ^
+raytracer.cpp:233:19: error: static assertion failed due to requirement 'AlwaysFalseT<rt::LineTag<':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', ':', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-', '-'>>::value'
+  233 |     static_assert(AlwaysFalseT<LineType<I>>::value);
+      |                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+raytracer.cpp:237:20: note: in instantiation of template class 'rt::LineAssert<39>' requested here
+  237 | struct EmitLines : LineAssert<Is>... {};
+      |                    ^
+raytracer.cpp:248:27: note: in instantiation of template class 'rt::EmitLines<0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39>' requested here
+  248 | constexpr bool kTrigger = sizeof(Trigger) > 0;
+      |                           ^
+40 errors generated.
