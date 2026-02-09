@@ -98,4 +98,4 @@ clang++ -std=c++20 -fconstexpr-steps=20000000 -ferror-limit=0 raytracer.cpp
 
 ## License
 
-Unspecified. Add a LICENSE file if you intend to publish.
+MIT
