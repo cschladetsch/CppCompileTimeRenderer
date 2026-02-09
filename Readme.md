@@ -36,9 +36,13 @@ This prints a wall of errors containing `LineTag<...>` type instantiations. Each
 clang++ -std=c++20 -fconstexpr-steps=10000000 -ferror-limit=0 raytracer.cpp 2>&1 | tools/clean_errors.py
 ```
 
-### Filtered output (example)
+### Filtered output
 
 ![Demo](/resources/Untitled.jpg)
+
+### Unfiltered output
+
+![Unfiltered](/resources/Raw.jpg)
 
 ### 3) One-command render (raw + cleaned)
 
