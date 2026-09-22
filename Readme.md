@@ -1,5 +1,8 @@
 # Compile-Time Ray Tracer (Compiler-Error Art)
 
+📖 [Docs & diagrams](https://cschladetsch.github.io/CppCompileTimeRenderer/)
+
+
 This project renders a simple 3D scene **entirely at compile time** and **intentionally fails compilation** to display the resulting ASCII art inside compiler error messages. There is no successful executable; the “output” is the error log.
 
 ## What It Does

@@ -1,0 +1,4 @@
+title: Compile-Time Ray Tracer
+description: Renders a simple 3D scene entirely at compile time using a constexpr ray tracer (spheres, lighting, shadows) in C++20, then intentionally fails compilation so the resulting ASCII art shows up inside the compiler's error messages. There is no successful executable.
+theme: null
+markdown: kramdown
